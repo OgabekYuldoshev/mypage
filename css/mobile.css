@@ -1,0 +1,70 @@
+@media screen and (max-width: 768px){
+  #control{
+    position: fixed;
+    right: 0;
+    top: 0;
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 0vh;
+    overflow-x: hidden;
+    background-color: black;
+    transition: .5s;
+  }
+  #control li{
+    width: 30vh;
+  }
+  #control li a{
+    font-size: 20px;
+    color: rgb(224, 224, 224);
+  }
+  #social{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  #enter{
+    display: block;
+    cursor: pointer;
+  }
+  #exit{
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    top: 3%;
+    left: 10%;
+  }
+    .aboutImg{
+        display: none;
+    }
+    #about{
+      position: relative;
+        width: 100%;
+        height: 180vh;
+    }
+    .info{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+    }
+    .service{
+      width: 80%;
+      margin: auto;
+      height: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px ;
+      align-items: center;
+      justify-content:center;
+      list-style: none;
+    }
+    #projects{
+      width: 100%;
+      height: 280vh;
+    }
+  }
